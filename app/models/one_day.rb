@@ -1,0 +1,2 @@
+class OneDay < ApplicationRecord
+end
