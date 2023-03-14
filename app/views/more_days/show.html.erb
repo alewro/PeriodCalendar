@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @more_day %>
+
+<div>
+  <%= link_to "Edit this more day", edit_more_day_path(@more_day) %> |
+  <%= link_to "Back to more days", more_days_path %>
+
+  <%= button_to "Destroy this more day", @more_day, method: :delete %>
+</div>

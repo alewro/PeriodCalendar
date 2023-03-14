@@ -1,0 +1,2 @@
+class MoreDay < ApplicationRecord
+end

@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>More days</h1>
+
+<div id="more_days">
+  <% @more_days.each do |more_day| %>
+    <%= render more_day %>
+    <p>
+      <%= link_to "Show this more day", more_day %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New more day", new_more_day_path %>
