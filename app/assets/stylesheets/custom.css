@@ -1,0 +1,15 @@
+html,
+body {
+  height: 100%;
+  font-family: Bradley Hand, cursive;
+  background-image: url('/assets/annie-spratt-4wz1YsANFB0-unsplash.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home {
+  height: 100%;
+  display: grid;
+  place-items: center;
+}

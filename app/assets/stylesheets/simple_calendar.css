@@ -27,25 +27,13 @@ th {
 td {
   padding: 6px;
   vertical-align: top;
-  width: 14%;
-
   border: 1px solid #ddd;
-  border-top-color: rgb(221, 221, 221);
-  border-top-style: solid;
-  border-top-width: 1px;
-  border-right-color: rgb(221, 221, 221);
-  border-right-style: solid;
-  border-right-width: 1px;
-  border-bottom-color: rgb(221, 221, 221);
-  border-bottom-style: solid;
-  border-bottom-width: 1px;
-  border-left-color: rgb(221, 221, 221);
-  border-left-style: solid;
-  border-left-width: 1px;
 }
 
 .day {
-  height: 80px;
+  height: 5em;
+  min-width: 14%;
+
 }
 
 .wday-0 {}
@@ -74,3 +62,11 @@ td {
 .current-month {}
 
 .has-events {}
+
+.simple-calendar {
+  width: 80%;
+  background-color: #fff;
+  -webkit-box-shadow: 8px 8px 24px -15px rgba(148, 0, 255, 1);
+  -moz-box-shadow: 8px 8px 24px -15px rgba(148, 0, 255, 1);
+  box-shadow: 8px 8px 24px -15px rgba(148, 0, 255, 1);
+}
