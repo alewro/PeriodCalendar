@@ -13,3 +13,15 @@ body {
   display: grid;
   place-items: center;
 }
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #9400FF;
+}
+
+a:hover {
+  color: #8219CF;
+}

@@ -1,7 +1,7 @@
 table {
   -webkit-border-horizontal-spacing: 0px;
   -webkit-border-vertical-spacing: 0px;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #fff;
   border: 1px solid rgb(221, 221, 221);
   border-collapse: collapse;
   box-sizing: border-box;
@@ -11,6 +11,7 @@ table {
 
 tr {
   border-collapse: collapse;
+  height: 80px;
 }
 
 th {
@@ -21,7 +22,8 @@ th {
   border-right: 1px solid rgb(221, 221, 221);
   border-top: 0px none rgb(51, 51, 51);
   box-sizing: border-box;
-  text-align: left;
+  text-align: center;
+  background-color: #ffffffc7;
 }
 
 td {
@@ -31,42 +33,42 @@ td {
 }
 
 .day {
-  height: 5em;
   min-width: 14%;
-
 }
-
-.wday-0 {}
-.wday-1 {}
-.wday-2 {}
-.wday-3 {}
-.wday-4 {}
-.wday-5 {}
-.wday-6 {}
 
 .today {
-  background: #FFFFC0
+  background: #9500ff4f;
 }
-
-.past {}
-.future {}
-
-.start-date {}
 
 .prev-month {
-  background: #DDD;
+  color: transparent;
 }
 .next-month {
-  background: #DDD;
+  color: transparent;
 }
 .current-month {}
 
-.has-events {}
+.has-events {
+}
 
 .simple-calendar {
   width: 80%;
-  background-color: #fff;
   -webkit-box-shadow: 8px 8px 24px -15px rgba(148, 0, 255, 1);
   -moz-box-shadow: 8px 8px 24px -15px rgba(148, 0, 255, 1);
   box-shadow: 8px 8px 24px -15px rgba(148, 0, 255, 1);
+
+  border: 3px solid #9400ff;
+}
+
+.calendar-heading {
+  padding: 1em;
+  text-align: center;
+  font-size: larger;
+  background-color: #fff;
+  border-bottom: 3px solid #9400ff;
+}
+
+.calendar-title {
+  font-size: larger;
+  margin: 2em;
 }
