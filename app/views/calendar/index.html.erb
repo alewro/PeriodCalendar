@@ -1,18 +1,19 @@
 <div class="home">
   <%= month_calendar(events: (@one_days + @more_days) ) do |date, meetings| %>
-    <%= date.day %>
-
-    <% meetings.each do |meeting| %>
-      <% if meeting.has_attribute?(:end_time)%>
-        <div class="period">
-          <i class="fa fa-tint" aria-hidden="true"></i>
-        </div>
-      <%else%>
-        <div class="intercourse">
-          <i class="fa fa-heart"></i>
-        </div>
-      <%end%>
-    <% end %>
+    <div class="single">
+      <%= date.day %>
+      <% meetings.each do |meeting| %>
+        <% if meeting.has_attribute?(:end_time)%>
+          <div class="period">
+            <i class="fa fa-tint" aria-hidden="true"></i>
+          </div>
+        <%else%>
+          <div class="intercourse">
+            <i class="fa fa-heart"></i>
+          </div>
+        <%end%>
+      <% end %>
+    </div>
   <% end %>
 </div>
 
