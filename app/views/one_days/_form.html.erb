@@ -12,16 +12,11 @@
   <% end %>
 
   <div>
-    <%= form.label :name, style: "display: block" %>
-    <%= form.text_field :name %>
-  </div>
-
-  <div>
     <%= form.label :start_time, style: "display: block" %>
-    <%= form.datetime_field :start_time %>
+   <span class="date-time"><%= form.date_select(:start_time, default: Date.today) %></span>
   </div>
 
   <div>
-    <%= form.submit %>
+    <%= form.submit "Add sex", class:"submit-btn" %>
   </div>
 <% end %>

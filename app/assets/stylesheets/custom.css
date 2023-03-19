@@ -25,3 +25,63 @@ a:visited {
 a:hover {
   color: #8219CF;
 }
+
+.add-link {
+  background-color: #fff;
+  color: #111;
+  padding: 0.5em;
+  border: 3px solid #9400ff;
+  -webkit-box-shadow: 8px 8px 24px -15px rgba(148, 0, 255, 1);
+  -moz-box-shadow: 8px 8px 24px -15px rgba(148, 0, 255, 1);
+  box-shadow: 8px 8px 24px -15px rgba(148, 0, 255, 1);
+}
+
+.add-link:visited {
+  color: #111;
+}
+
+form {
+  display: grid;
+  place-items: center;
+  background-color: #fff;
+  padding: 1em;
+  border: 3px solid #9400ff;
+  -webkit-box-shadow: 8px 8px 24px -15px rgba(148, 0, 255, 1);
+  -moz-box-shadow: 8px 8px 24px -15px rgba(148, 0, 255, 1);
+  box-shadow: 8px 8px 24px -15px rgba(148, 0, 255, 1);
+}
+
+h1 {
+  background-color: #fff;
+  width: fit-content;
+  padding: 0.1em;
+  border: 3px solid #9400ff;
+  -webkit-box-shadow: 8px 8px 24px -15px rgba(148, 0, 255, 1);
+  -moz-box-shadow: 8px 8px 24px -15px rgba(148, 0, 255, 1);
+  box-shadow: 8px 8px 24px -15px rgba(148, 0, 255, 1);
+}
+
+.date-time select:nth-child(1) {
+  background-color: #fff;
+  border: 2px solid #9500ff7b;
+  padding: 0.5em;
+  margin-top: 0.5em;
+  margin-bottom: 1.5em;
+}
+.date-time select:nth-child(2) {
+  background-color: #fff;
+  border: 2px solid #9500ff7b;
+  padding: 0.5em;
+}
+.date-time select:nth-child(3) {
+  background-color: #fff;
+  border: 2px solid #9500ff7b;
+  padding: 0.5em;
+}
+
+.submit-btn {
+  background-color: #fff;
+  border: 2px solid #9500ff7b;
+  padding: 0.5em;
+  cursor: grab;
+}

@@ -62,6 +62,8 @@ td {
   text-align: center;
   background-color: #fff;
   border-bottom: 3px solid #9400ff;
+  display: flex;
+  justify-content: space-between;
 }
 
 .calendar-title {
