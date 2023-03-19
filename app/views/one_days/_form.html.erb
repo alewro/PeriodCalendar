@@ -17,6 +17,6 @@
   </div>
 
   <div>
-    <%= form.submit "Add sex", class:"submit-btn" %>
+    <%= form.submit(@one_day.new_record? ? "Add sex" : "Update sex", class:"submit-btn") %>
   </div>
 <% end %>

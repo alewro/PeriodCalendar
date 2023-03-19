@@ -22,6 +22,6 @@
   </div>
 
   <div>
-    <%= form.submit "Add period", class:"submit-btn" %>
+    <%= form.submit(@more_day.new_record? ? "Add period" : "Update period", class:"submit-btn") %>
   </div>
 <% end %>

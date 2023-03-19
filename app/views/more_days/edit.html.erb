@@ -1,10 +1,10 @@
-<h1>Editing more day</h1>
+<h1>Editing period</h1>
 
 <%= render "form", more_day: @more_day %>
 
 <br>
 
 <div>
-  <%= link_to "Show this more day", @more_day %> |
-  <%= link_to "Back to more days", more_days_path %>
+  <%= link_to "Delete period", @more_day, data: { turbo_method: :delete }, class:"add-link" %>
+  <%= link_to "Back to events", show_path, class:"add-link" %>
 </div>

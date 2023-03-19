@@ -25,7 +25,7 @@ class MoreDaysController < ApplicationController
 
     respond_to do |format|
       if @more_day.save
-        format.html { redirect_to more_day_url(@more_day), notice: "More day was successfully created." }
+        format.html {redirect_to root_path}
         format.json { render :show, status: :created, location: @more_day }
       else
         format.html { render :new, status: :unprocessable_entity }
@@ -52,7 +52,7 @@ class MoreDaysController < ApplicationController
     @more_day.destroy
 
     respond_to do |format|
-      format.html { redirect_to more_days_url, notice: "More day was successfully destroyed." }
+      format.html { redirect_to show_path }
       format.json { head :no_content }
     end
   end

@@ -1,0 +1,13 @@
+<div class="show-events">
+  <% @more_days.each do |more_day| %>
+    <%= render more_day %>
+  <% end %>
+</div>
+
+<div class="show-events">
+  <% @one_days.each do |one_day| %>
+    <%= render one_day %>
+  <% end %>
+</div>
+
+<%= link_to "Back to calendar", root_path, class:"add-link" %>

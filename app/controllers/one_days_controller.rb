@@ -25,7 +25,7 @@ class OneDaysController < ApplicationController
 
     respond_to do |format|
       if @one_day.save
-        format.html { redirect_to one_day_url(@one_day), notice: "One day was successfully created." }
+        format.html { redirect_to root_path }
         format.json { render :show, status: :created, location: @one_day }
       else
         format.html { render :new, status: :unprocessable_entity }
@@ -52,7 +52,7 @@ class OneDaysController < ApplicationController
     @one_day.destroy
 
     respond_to do |format|
-      format.html { redirect_to one_days_url, notice: "One day was successfully destroyed." }
+      format.html { redirect_to show_path }
       format.json { head :no_content }
     end
   end

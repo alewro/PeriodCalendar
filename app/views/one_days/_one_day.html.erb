@@ -1,12 +1,9 @@
-<div id="<%= dom_id one_day %>">
+<div class="show-event">
   <p>
-    <strong>Name:</strong>
-    <%= one_day.name %>
+    <strong>Sex date</strong>
+    <%= one_day.start_time.to_date %>
   </p>
-
   <p>
-    <strong>Start time:</strong>
-    <%= one_day.start_time %>
+    <%= link_to "Edit sex", edit_one_day_path(one_day), class:"edit-link" %>
   </p>
-
 </div>

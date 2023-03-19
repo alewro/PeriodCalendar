@@ -85,3 +85,30 @@ h1 {
   padding: 0.5em;
   cursor: grab;
 }
+
+.show-event {
+  background-color: #fff;
+  padding: 0.5em;
+}
+
+.show-events {
+  background-color: #fff;
+  margin: 1em;
+  display: block;
+  border: 3px solid #9400ff;
+
+}
+
+.edit-link {
+  color: #111;
+  margin: 0;
+}
+
+.edit-link:visited {
+  color: #111;
+}
+
+p {
+  margin: 0;
+  margin-bottom: 1em;
+}
